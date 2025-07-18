@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #0b3d91;
+}
+
+header.hero {
+    background: linear-gradient(to right, #0077be, #00aaff);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #004080;
+    border-bottom: 2px solid #66ccff;
+    display: inline-block;
+}
+
+.about p, .services ul, .gallery p {
+    font-size: 1.1rem;
+    color: #003366;
+}
+
+.services ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.contact ul {
+     list-style: none;
+     padding-left: 0;
+     margin-top: 15px;
+}
+
+.contact li {
+     margin-bottom: 10px;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+}
+
+.contact li ::before {
+    content: "📞";
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+} 
+
+.contact a:hover {
+    color: #16a085;
+    text-decoration: underline;
+
+}
+
+.contact form {
+    display: 1rem;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #66ccff;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e6f2ff;
+}
+
+.contact button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #0077be;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #005f99;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #663399;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+.back-button:hover {
+    background-color: #777;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
